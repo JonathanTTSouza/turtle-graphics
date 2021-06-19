@@ -18,7 +18,7 @@ timmy = Turtle()
 screen = Screen()
 screen.colormode(255)
 screen.bgcolor("black")
-timmy.speed("fast")
+timmy.speed("fastest")
 
 count = 1
 for _ in range(int(360/10)):

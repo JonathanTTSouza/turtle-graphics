@@ -7,7 +7,7 @@ timmy = Turtle()
 timmy.shape("turtle")
 
 count = 3
-while count < 20:
+while count < 10:
     for _ in range(count):
         timmy.forward(100)
         timmy.right(360 / count)

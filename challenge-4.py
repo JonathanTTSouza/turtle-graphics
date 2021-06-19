@@ -9,7 +9,7 @@ timmy.shape("turtle")
 screen = Screen()
 screen.colormode(255)
 timmy.pensize(width=5)
-timmy.speed("fastest")
+timmy.speed("fast")
 # TODO 1 Random walk
 # TODO 2 Random color each walk
 # TODO 3 Increasing Thickness each walk
@@ -26,7 +26,7 @@ for _ in range(1000000):
         timmy.right(90)
     elif coin == 1:
         timmy.left(90)
-    timmy.forward(5)
+    timmy.forward(20)
 
 screen = Screen()
 screen.exitonclick()
