@@ -15,11 +15,15 @@ turtle = Turtle()
 turtle.penup()
 height = -250
 turtle.setposition(-250, -250)
-for _ in range(10):
-    for _ in range(10):
+
+# Draws the dots
+for columns in range(10):
+    for lines in range(10):
         turtle.dot(20, random.choice(painting_colors))
         turtle.forward(50)
     height += 50
+
+    # Goes back to initial x, but with +50 height
     turtle.setposition(-250, height)
 
 turtle.hideturtle()
